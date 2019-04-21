@@ -3,7 +3,7 @@ extends KinematicBody2D
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"
-var speed = 1000
+var speed = 100
 
 # Called when the node enters the scene tree for the first time.
 
@@ -38,5 +38,6 @@ func _input(event):
 	
 
 func move(vector):
-	if (test_move(transform, vector)):
-		position = position + vector
+#	position += vector
+	if (!test_move(transform, vector)):
+		position += vector
