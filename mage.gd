@@ -33,4 +33,3 @@ func _on_dwarf_next_move():
 		new_path.remove(0)
 		
 		
-func 
