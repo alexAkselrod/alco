@@ -1,5 +1,7 @@
 extends KinematicBody2D
 
+signal next_move
+
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"
@@ -38,6 +40,6 @@ func _input(event):
 	
 
 func move(vector):
-#	position += vector
 	if (!test_move(transform, vector)):
 		position += vector
+		emit_signal("next_move")
