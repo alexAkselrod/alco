@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://tileset.tres" type="TileSet" id=1]
 [ext_resource path="res://tilemap.gd" type="Script" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://mage.tscn" type="PackedScene" id=4]
 [ext_resource path="res://vampire_spawn.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Interface.tscn" type="PackedScene" id=6]
+[ext_resource path="res://exit.tscn" type="PackedScene" id=7]
 
 [node name="root" type="Node"]
 
@@ -32,6 +33,7 @@ position = Vector2( 450, 450 )
 position = Vector2( 1910.48, 726.44 )
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
+editor/display_folded = true
 
 [node name="Interface" parent="CanvasLayer" instance=ExtResource( 6 )]
 margin_left = 14.9641
@@ -39,5 +41,9 @@ margin_top = 10.883
 margin_right = 14.9641
 margin_bottom = 10.883
 
+[node name="exit" parent="." instance=ExtResource( 7 )]
+position = Vector2( 250, 750 )
+
+[connection signal="next_move" from="dwarf" to="exit" method="_on_dwarf_next_move"]
 [connection signal="next_move" from="dwarf" to="mage" method="_on_dwarf_next_move"]
 [connection signal="next_move" from="dwarf" to="vampire_spawn" method="_on_dwarf_next_move"]

@@ -17,7 +17,7 @@ func _ready():
 
 func _on_dwarf_next_move():
 	new_path = nav2d.get_simple_path(position, dwarf.position)
-	print(new_path)
+
 	var distance = speed
 	var start_point = position
 	for path in new_path:

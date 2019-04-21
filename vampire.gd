@@ -31,7 +31,7 @@ func on_next_move():
 		
 	var collide = move_and_collide(delta)
 	if collide and collide.collider.name == "dwarf":
-		
+		dwarf.health -= 1
 		dwarf.disconnect("next_move", self, "on_next_move")
 		emit_signal ("vampire_died")
 		get_parent().remove_child(self)

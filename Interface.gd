@@ -10,8 +10,7 @@ func _ready():
 	pass # Replace with function body.
 
 func _process(delta):
-	
-	var size = get_node("total_bar").get_size().x * (dwarf.health / 100)
+	var size = get_node("total_bar").get_size().x * (dwarf.health / 100.0)
 	var cur = get_node("health_bar").get_size()
 	cur.x = size
 	get_node("health_bar").set_size(cur)
