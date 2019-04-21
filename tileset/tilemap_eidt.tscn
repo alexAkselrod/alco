@@ -8,7 +8,7 @@
 [ext_resource path="res://tileset/border.png" type="Texture" id=6]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 249.14, 228.209 )
+extents = Vector2( 249.14, 248.761 )
 
 [node name="tilemap" type="Node2D"]
 
