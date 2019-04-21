@@ -20,7 +20,6 @@ func _ready():
 #	pass
 
 func _input(event):
-	print(position.x)
 	if event.is_action_pressed("ui_up"):
 		move(Vector2(0, -speed))
 	elif event.is_action_pressed("ui_up_right"):
@@ -42,4 +41,4 @@ func _input(event):
 func move(vector):
 	if (!test_move(transform, vector)):
 		position += vector
-		emit_signal("next_move")
+	emit_signal("next_move")

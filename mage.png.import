@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/алкаш.png-5f8ddf454b194e6bf90ae4174d2f5950.stex"
+path="res://.import/mage.png-f40047069d81f055fa40a2a36e7cc3d9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://алкаш.png"
-dest_files=[ "res://.import/алкаш.png-5f8ddf454b194e6bf90ae4174d2f5950.stex" ]
+source_file="res://mage.png"
+dest_files=[ "res://.import/mage.png-f40047069d81f055fa40a2a36e7cc3d9.stex" ]
 
 [params]
 

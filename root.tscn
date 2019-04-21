@@ -39,3 +39,5 @@ margin_top = 10.883
 margin_right = 14.9641
 margin_bottom = 10.883
 
+[connection signal="next_move" from="dwarf" to="mage" method="_on_dwarf_next_move"]
+[connection signal="next_move" from="dwarf" to="vampire_spawn" method="_on_dwarf_next_move"]

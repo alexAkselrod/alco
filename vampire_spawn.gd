@@ -27,11 +27,14 @@ func add_vampire ():
 	var new_vamp = scene.instance()
 	new_vamp.set_name("vampire" + str(cnt))
 	
-	print ("@@@", global_position)	
 	get_parent().add_child(new_vamp)
+	get_parent().get_node("dwarf").connect("next_move", new_vamp, "on_next_move")
 	new_vamp.connect("vampire_died", self, "on_vampire_died")
 	new_vamp.global_position = global_position	
 
 func _on_Timer_timeout():	
 	add_vampire()
-	print ("new timer invoked!", get_parent().name)
+
+
+func _on_dwarf_next_move():
+	pass # Replace with function body.

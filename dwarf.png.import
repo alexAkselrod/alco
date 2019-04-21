@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/маг.png-25a0482844fb19365bbfb5c34aeafdbe.stex"
+path="res://.import/dwarf.png-0c7d9b00c814840f96bd28f41b9a2f6c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://маг.png"
-dest_files=[ "res://.import/маг.png-25a0482844fb19365bbfb5c34aeafdbe.stex" ]
+source_file="res://dwarf.png"
+dest_files=[ "res://.import/dwarf.png-0c7d9b00c814840f96bd28f41b9a2f6c.stex" ]
 
 [params]
 
