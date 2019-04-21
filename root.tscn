@@ -22,4 +22,5 @@ position = Vector2( 216.144, 213.3 )
 position = Vector2( 47.2413, 219.102 )
 scale = Vector2( 0.2, 0.2 )
 [node name="mage" parent="TileMap" instance=ExtResource( 4 )]
+position = Vector2( 4270.92, 2264.8 )
 
