@@ -21,16 +21,16 @@ tile_data = PoolIntArray( 0, 2, 0, 1, 2, 0, 2, 2, 0, 3, 2, 0, 4, 2, 0, 5, 2, 0, 
 script = ExtResource( 2 )
 
 [node name="vampire_spawn" parent="." instance=ExtResource( 3 )]
-position = Vector2( 450, 450 )
+position = Vector2( 2850, 2200 )
 
 [node name="vampire_spawn 2" parent="." instance=ExtResource( 3 )]
-position = Vector2( 1910.48, 726.44 )
+position = Vector2( 2650, 550 )
 
 [node name="dwarf" parent="." instance=ExtResource( 4 )]
 position = Vector2( 250, 250 )
 
 [node name="mage" parent="." instance=ExtResource( 5 )]
-position = Vector2( 450, 1950 )
+position = Vector2( 350, 2250 )
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 editor/display_folded = true
@@ -42,7 +42,7 @@ margin_right = 14.9641
 margin_bottom = 10.883
 
 [node name="exit" parent="." instance=ExtResource( 7 )]
-position = Vector2( 250, 750 )
+position = Vector2( 400, 2650 )
 
 [connection signal="next_move" from="dwarf" to="exit" method="_on_dwarf_next_move"]
 [connection signal="next_move" from="dwarf" to="mage" method="_on_dwarf_next_move"]
