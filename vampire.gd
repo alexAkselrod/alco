@@ -18,11 +18,17 @@ signal vampire_died
 func on_next_move():
 	var cur = position
 	var target = dwarf.position
-	var delta = (target - cur).normalized() * speed
+	var delta = target - cur
 	
-#	delta.x = speed * delta.x / abs(delta.x)
-#	delta.y = speed * delta.y / abs(delta.y)
-	
+	if delta.x != 0:
+		delta.x = speed * delta.x / abs(delta.x)
+	else:
+		delta.x = 0
+	if delta.y != 0:
+		delta.y = speed * delta.y / abs(delta.y)
+	else:
+		delta.y = 0
+		
 	var collide = move_and_collide(delta)
 	if collide and collide.collider.name == "dwarf":
 		
