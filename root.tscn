@@ -17,11 +17,11 @@ tile_data = PoolIntArray( 0, 2, 0, 1, 2, 0, 2, 2, 0, 3, 2, 0, 4, 2, 0, 5, 2, 0, 
 script = ExtResource( 2 )
 
 [node name="dwarf" parent="tilemap" instance=ExtResource( 3 )]
-position = Vector2( -1215.28, 504.531 )
+position = Vector2( 1250, 1250 )
 
 [node name="mage" parent="tilemap" instance=ExtResource( 4 )]
-position = Vector2( -718.375, 2347.7 )
+position = Vector2( 2250, 9750 )
 
 [node name="vampire" parent="tilemap" instance=ExtResource( 5 )]
-position = Vector2( -818.932, 1645.69 )
+position = Vector2( 21250, 10750 )
 
