@@ -30,7 +30,7 @@ position = Vector2( 2650, 550 )
 position = Vector2( 250, 250 )
 
 [node name="mage" parent="." instance=ExtResource( 5 )]
-position = Vector2( 350, 2250 )
+position = Vector2( 150, 2850 )
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 editor/display_folded = true
