@@ -3,7 +3,7 @@ extends KinematicBody2D
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"
-var speed = 5000
+var speed = 1000
 
 # Called when the node enters the scene tree for the first time.
 
@@ -18,40 +18,25 @@ func _ready():
 #	pass
 
 func _input(event):
-	print(get_parent().get_node("dwarf").position.x)
+	print(position.x)
 	if event.is_action_pressed("ui_up"):
-		move(DIRECTION.N)
+		move(Vector2(0, -speed))
 	elif event.is_action_pressed("ui_up_right"):
-		move(DIRECTION.NE)
+		move(Vector2(speed,-speed))
 	elif event.is_action_pressed("ui_right"):
-		move(DIRECTION.E)
+		move(Vector2(speed,0))
 	elif event.is_action_pressed("ui_down_right"):
-		move(DIRECTION.SE)
+		move(Vector2(speed,speed))
 	elif event.is_action_pressed("ui_down"):
-		move(DIRECTION.S)
+		move(Vector2(0,speed))
 	elif event.is_action_pressed("ui_down_left"):
-		move(DIRECTION.SW)
+		move(Vector2(-speed,speed))
 	elif event.is_action_pressed("ui_left"):
-		move(DIRECTION.W)
+		move(Vector2(-speed,0))
 	elif event.is_action_pressed("ui_up_left"):
-		move(DIRECTION.E)
+		move(Vector2(-speed,-speed))
 	
 
-func move(direction):
-	match(direction):
-		DIRECTION.N:
-			move_and_slide(Vector2(0, -speed))
-		DIRECTION.NE:
-			move_and_slide(Vector2(speed,-speed))
-		DIRECTION.E:
-			move_and_slide(Vector2(speed,0))
-		DIRECTION.SE:
-			move_and_slide(Vector2(speed,speed))
-		DIRECTION.S:
-			move_and_slide(Vector2(0,speed))
-		DIRECTION.SW:
-			move_and_slide(Vector2(-speed,speed))
-		DIRECTION.W:
-			move_and_slide(Vector2(-speed,0))
-		DIRECTION.NW:
-			move_and_slide(Vector2(-speed,-speed))
+func move(vector):
+	if (test_move(transform, vector)):
+		position = position + vector
