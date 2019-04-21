@@ -17,4 +17,5 @@ tile_data = PoolIntArray( 2, 0, 0, 3, 2, 0, 4, 2, 0, 5, 2, 0, 65539, 0, 0, 65540
 position = Vector2( 216.144, 213.3 )
 
 [node name="mage" parent="TileMap" instance=ExtResource( 3 )]
+position = Vector2( 4270.92, 2264.8 )
 
