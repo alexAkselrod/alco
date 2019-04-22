@@ -42,7 +42,7 @@ margin_right = 14.9641
 margin_bottom = 10.883
 
 [node name="exit" parent="." instance=ExtResource( 7 )]
-position = Vector2( 250, 750 )
+position = Vector2( 400, 2650 )
 
 [connection signal="next_move" from="dwarf" to="exit" method="_on_dwarf_next_move"]
 [connection signal="next_move" from="dwarf" to="mage" method="_on_dwarf_next_move"]
