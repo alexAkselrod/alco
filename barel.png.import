@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/exit.jpeg-89fe0cdbb7e828cc4e056ca0e8332282.stex"
+path="res://.import/barel.png-e8410b3702c582afd7e4103258fd9dc8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://exit.jpeg"
-dest_files=[ "res://.import/exit.jpeg-89fe0cdbb7e828cc4e056ca0e8332282.stex" ]
+source_file="res://barel.png"
+dest_files=[ "res://.import/barel.png-e8410b3702c582afd7e4103258fd9dc8.stex" ]
 
 [params]
 

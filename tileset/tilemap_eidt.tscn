@@ -46,4 +46,3 @@ texture = ExtResource( 6 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="wall/StaticBody2D"]
 shape = SubResource( 1 )
-
