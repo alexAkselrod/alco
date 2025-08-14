@@ -1,9 +1,126 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0" version="28.0.9">
   <diagram name="Page-1" id="p1e_zzRNiA8eHb3ccGxB">
-    <mxGraphModel>
+    <mxGraphModel dx="1054" dy="832" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UJlVZva-x3cLYWO6U9su-1" value="&lt;div align=&quot;left&quot;&gt;Предложенная РГ архитектура влияет на следующие показатели&lt;br&gt;- безопасность&lt;br&gt;- длительность коммуникации на операторе - не будем это формулировать в технических KR&#39;ах, а будем упоминать при продаже в рамках выравнивания&lt;br&gt;- управляемость - внедрение агентов под угрозой, через рост количества процедур&lt;br&gt;- LT запусков - время реализации входящих в команду ПО запусков&lt;br&gt;- снижение доли Run (baseline - 79%). В 0 не снижаем, т к есть летимный Run&lt;br&gt;- надежность процессов обслуживания&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;***** МКП&lt;br&gt;&lt;b&gt;- % трафика, обрабатываемый МКП&lt;/b&gt;&lt;br&gt;- % доли Run, происходящего только в мультиканальных процедурах&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-206" y="-186" width="380" height="251" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="UJlVZva-x3cLYWO6U9su-2" target="UJlVZva-x3cLYWO6U9su-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="UJlVZva-x3cLYWO6U9su-2" target="UJlVZva-x3cLYWO6U9su-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-2" value="O: Мы надежны!" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-146" y="74" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="UJlVZva-x3cLYWO6U9su-3" target="UJlVZva-x3cLYWO6U9su-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-3" value="&lt;div&gt;KR1: BC/BC+-услуги, выполняют SLA&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="16" y="80" width="202" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="UJlVZva-x3cLYWO6U9su-4" target="UJlVZva-x3cLYWO6U9su-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-4" value="&lt;div&gt;KR2: весь трафик покрыт CRO-approved услугами надежности&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="19" y="137" width="202" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-5" value="&lt;ul&gt;&lt;li&gt;0 - ни одна услуга не удовлетворяет SLA&lt;/li&gt;&lt;li&gt;1 - все услуги выполняют SLA&lt;/li&gt;&lt;/ul&gt;Между - линейно" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="273" y="15" width="272" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-8" value="0 - покрыто 0%&lt;br&gt;между - линейно&lt;br&gt;0.7 - покрыто 98%&lt;br&gt;между - линейно&lt;br&gt;1 - покрыто 100%" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="293.5" y="124" width="202" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-11" value="O: Мы быстры!" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-146" y="212" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="UJlVZva-x3cLYWO6U9su-12" target="UJlVZva-x3cLYWO6U9su-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-12" value="KR1: ускорили работу 20% частотных сценариев обслуживания на 10%" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="19" y="214" width="165" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.018;entryY=0.359;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="UJlVZva-x3cLYWO6U9su-11" target="UJlVZva-x3cLYWO6U9su-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-14" value="t_1 - время работы 20% частотных сценариев на начало периода&lt;br&gt;t_2 - текущее время работу 20% частотных сценариев&lt;br&gt;&lt;br&gt;0 - t_2 &amp;gt;= t_1&lt;br&gt;между - линейно&lt;br&gt;1 - t_2 меньше t_1 более чем на 10%&lt;br&gt;&lt;br&gt;Было бы неплохо посчитать, а сколько это 10% в деньгах?&lt;br&gt;10% получено на основе опыта Ориджа" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="270" y="217" width="319" height="167" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="UJlVZva-x3cLYWO6U9su-16" target="UJlVZva-x3cLYWO6U9su-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-16" value="&lt;div align=&quot;left&quot;&gt;O: Мы эффективны!&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-133" y="411" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-17" value="KR1: LT запусков улучшился на 20%" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="18" y="411" width="165" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-19" value="&lt;ul&gt;&lt;li&gt;0 - не изменился, даже ухудшился&lt;/li&gt;&lt;li&gt;1 - улучшился на 20%&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;Между - линейно" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="404" width="249" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-21" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.013;entryY=0.199;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="UJlVZva-x3cLYWO6U9su-17" target="UJlVZva-x3cLYWO6U9su-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-25" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="UJlVZva-x3cLYWO6U9su-22" target="UJlVZva-x3cLYWO6U9su-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-22" value="KR2: получили возможность делать Change" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="16" y="546" width="165" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-23" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.022;entryY=0.614;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="UJlVZva-x3cLYWO6U9su-16" target="UJlVZva-x3cLYWO6U9su-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-24" value="&lt;ul&gt;&lt;li&gt;0 - доля Run &amp;gt;= 79%&lt;/li&gt;&lt;li&gt;0.5 - доля Run &amp;gt;= 50%&lt;/li&gt;&lt;li&gt;1 - доля Run &amp;lt;= 30%&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;Между - линейно&lt;br&gt;&lt;br&gt;Бейзлайн сейчас только для BPM, в целевке считаем для команды" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="283" y="520" width="219" height="151" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-26" value="&lt;div align=&quot;left&quot;&gt;O: Мы безопасны!&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-133" y="739" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-30" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="UJlVZva-x3cLYWO6U9su-27" target="UJlVZva-x3cLYWO6U9su-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-27" value="KR1: не создаем инциденты безопасности" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="45" y="743" width="213" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-28" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.389;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="UJlVZva-x3cLYWO6U9su-26" target="UJlVZva-x3cLYWO6U9su-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-29" value="&lt;br&gt;&lt;br&gt;n - число инцов за 24-25 период&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;0 - &amp;gt;= n инцов&lt;/li&gt;&lt;li&gt;1 - 0 инцов&lt;br&gt;&lt;br&gt;&lt;div align=&quot;left&quot;&gt;Между - линейно&amp;nbsp;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;Уточнить линейку с инфобезами - Катя Г&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="353" y="697" width="252" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-31" value="В ОКР не берем, но думаем в рамках РГ про техники обеспечения безопасности - включая пентесты" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-188" y="612" width="221" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-40" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="UJlVZva-x3cLYWO6U9su-33" target="UJlVZva-x3cLYWO6U9su-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-33" value="&lt;div align=&quot;left&quot;&gt;O: Мы мультиканальны&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="956" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-36" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="UJlVZva-x3cLYWO6U9su-34" target="UJlVZva-x3cLYWO6U9su-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-34" value="KR1: достаточно трафика проходит через МКП" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="73" y="959" width="166" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-35" value="0 - k% идет через МКП&lt;br&gt;Между линейно&lt;br&gt;0.7 - 30% трафика идет через МКП&lt;br&gt;Между линейно&lt;br&gt;1 - 50% трафика идет через МКП&lt;br&gt;&lt;br&gt;k - теущий baseline трафика чата И голоса&lt;br&gt;&lt;br&gt;Пороги уточнить - Катя Г" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="316" y="901" width="296" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-37" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.012;entryY=0.411;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="UJlVZva-x3cLYWO6U9su-33" target="UJlVZva-x3cLYWO6U9su-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-41" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="UJlVZva-x3cLYWO6U9su-38" target="UJlVZva-x3cLYWO6U9su-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-38" value="KR2: все новые через МКП" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="68.5" y="1073" width="166" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UJlVZva-x3cLYWO6U9su-39" value="0 - МКП процедуры не создаются&lt;br&gt;между - линейно&lt;br&gt;1 - 90% рутовых процедур создаются МКП&lt;br&gt;&lt;br&gt;МКП - процедуры в чате и в голосе. Плеер процедур за скобками&lt;br&gt;&lt;br&gt;Пороги уточнить - Катя Г" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="313" y="1072" width="299" height="125" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
