@@ -156,28 +156,46 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-2" value="&lt;div align=&quot;left&quot;&gt;O: Мы современные!&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-131" y="137" width="111" height="30" as="geometry" />
+          <mxGeometry x="-172" y="296" width="111" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-3" value="KR1: весь трафик обрабатывается LLM-агентами (жесткими/гибкими)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="47" y="121" width="165" height="62" as="geometry" />
+          <mxGeometry x="43" y="89" width="165" height="62" as="geometry" />
         </mxCell>
         <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-4" value="&lt;ul&gt;&lt;li&gt;0 - не внедрили ни одного агента&lt;/li&gt;&lt;li&gt;0.7 - 50% трафика обрабатывается LLM-агентами&lt;/li&gt;&lt;li&gt;1 - 80% трафика обрабатывается LLM-агентами&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;Между - линейно" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="304" y="77" width="249" height="140" as="geometry" />
+          <mxGeometry x="304" y="94" width="249" height="123" as="geometry" />
         </mxCell>
         <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.013;entryY=0.199;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="HHjBe6AQ8RwJ7vzUnNPX-3" target="HHjBe6AQ8RwJ7vzUnNPX-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-7" value="Федя и Ден описывают, что такое LLM-агент" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="332" y="-53" width="136" height="30" as="geometry" />
+          <mxGeometry x="312" y="-135" width="136" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-8" value="KR2: внедряем LLM агенты" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="53" y="274" width="165" height="35" as="geometry" />
+        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-8" value="KR2: 100% наполнение Tool Registry" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="47" y="291" width="165" height="35" as="geometry" />
         </mxCell>
         <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.016;entryY=0.574;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="HHjBe6AQ8RwJ7vzUnNPX-2" target="HHjBe6AQ8RwJ7vzUnNPX-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-10" value="KR2: внедряем LLM агенты" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="329" y="270" width="165" height="35" as="geometry" />
+        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-10" value="&lt;ul&gt;&lt;li&gt;0 - нет тулов&lt;/li&gt;&lt;li&gt;0.7 - 50% call входит в какой-то tool&lt;/li&gt;&lt;li&gt;1 - каждый call входит в какой-то tool&lt;br&gt;&lt;br&gt;Между - линейно&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="329" y="270" width="248" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.637;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="HHjBe6AQ8RwJ7vzUnNPX-8" target="HHjBe6AQ8RwJ7vzUnNPX-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-12" value="KR3: 100% наполнение Tool Registry" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="461" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-13" value="&lt;ul&gt;&lt;li&gt;0 - нет тулов&lt;/li&gt;&lt;li&gt;0.7 - 50% call входит в какой-то tool&lt;/li&gt;&lt;li&gt;1 - каждый call входит в какой-то tool&lt;br&gt;&lt;br&gt;Между - линейно&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="435" width="248" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.637;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="HHjBe6AQ8RwJ7vzUnNPX-12" target="HHjBe6AQ8RwJ7vzUnNPX-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.015;entryY=0.612;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="HHjBe6AQ8RwJ7vzUnNPX-2" target="HHjBe6AQ8RwJ7vzUnNPX-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-17" value="Есть ли корреляция между LLM агентами и МКП?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="309" y="-64" width="136" height="58" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
