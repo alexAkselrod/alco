@@ -170,22 +170,22 @@
         <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-7" value="Федя и Ден описывают, что такое LLM-агент" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="312" y="-135" width="136" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-8" value="KR2: 100% наполнение Tool Registry" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-8" value="KR2: 100% наполнение Tool Registry&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="47" y="291" width="165" height="35" as="geometry" />
         </mxCell>
         <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.016;entryY=0.574;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="HHjBe6AQ8RwJ7vzUnNPX-2" target="HHjBe6AQ8RwJ7vzUnNPX-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-10" value="&lt;ul&gt;&lt;li&gt;0 - нет тулов&lt;/li&gt;&lt;li&gt;0.7 - 50% call входит в какой-то tool&lt;/li&gt;&lt;li&gt;1 - каждый call входит в какой-то tool&lt;br&gt;&lt;br&gt;Между - линейно&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-10" value="&lt;ul&gt;&lt;li&gt;0 - нет тулов&lt;/li&gt;&lt;li&gt;0.7 - все call из&amp;nbsp;50% траффика&amp;nbsp;входят в какой-то tool&lt;/li&gt;&lt;li&gt;1 - каждый call входит в какой-то tool&lt;br&gt;&lt;br&gt;Между - линейно&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="329" y="270" width="248" height="94" as="geometry" />
         </mxCell>
         <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.637;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="HHjBe6AQ8RwJ7vzUnNPX-8" target="HHjBe6AQ8RwJ7vzUnNPX-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-12" value="KR3: 100% наполнение Tool Registry" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-12" value="KR3: 100% консультаций доступны агенту" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="461" width="165" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-13" value="&lt;ul&gt;&lt;li&gt;0 - нет тулов&lt;/li&gt;&lt;li&gt;0.7 - 50% call входит в какой-то tool&lt;/li&gt;&lt;li&gt;1 - каждый call входит в какой-то tool&lt;br&gt;&lt;br&gt;Между - линейно&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-13" value="&lt;ul&gt;&lt;li&gt;0 - ничего не идет через RAG&lt;/li&gt;&lt;li&gt;0.7 - 50% делается через RAG&lt;/li&gt;&lt;li&gt;1 - 100% консультаций делается через RAG&lt;br&gt;&lt;br&gt;Между - линейно&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="330" y="435" width="248" height="94" as="geometry" />
         </mxCell>
         <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.637;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="HHjBe6AQ8RwJ7vzUnNPX-12" target="HHjBe6AQ8RwJ7vzUnNPX-13">
