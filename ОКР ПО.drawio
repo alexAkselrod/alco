@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0" version="28.0.9" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0" version="28.0.9" pages="3">
   <diagram name="Архитектура" id="p1e_zzRNiA8eHb3ccGxB">
     <mxGraphModel dx="1347" dy="1026" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UJlVZva-x3cLYWO6U9su-12" value="KR1: ускорили работу 20% частотных сценариев обслуживания на 10%" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=1;" vertex="1" parent="1">
-          <mxGeometry x="19" y="214" width="165" height="61" as="geometry" />
+          <mxGeometry x="21" y="206" width="165" height="61" as="geometry" />
         </mxCell>
         <mxCell id="UJlVZva-x3cLYWO6U9su-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.018;entryY=0.359;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="UJlVZva-x3cLYWO6U9su-11" target="UJlVZva-x3cLYWO6U9su-12">
           <mxGeometry relative="1" as="geometry" />
@@ -138,32 +138,46 @@
         <mxCell id="v7ABKU4FxKEosPhkaSEJ-1" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Воронка Обслуживания&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;сервис контекста для того, чтобы собирать единый контекст, чтобы процессы обслуживания забирали данные из этого контекста, а не собирали его самостоятельно из внешних систем&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;модель данных сервиса контекста - сейчас выглядит так, что этих границ нет и он собирает все, что будет полезно/до чего можно дотянуться&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;аутентификация клиента - создание фейковой коммуникации, ручной ввод Contact ID может предоставить всем участникам обслуживания нелегитимный доступ к данным клиента&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;0 инцидентов, связанных с компрометацией клиентских данных&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-433" y="-530" width="1276" height="205" as="geometry" />
         </mxCell>
-        <mxCell id="m1h4zNA2cB7KUE-4J2bR-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m1h4zNA2cB7KUE-4J2bR-2" target="m1h4zNA2cB7KUE-4J2bR-8">
+        <mxCell id="39wNPfXL4GRAYk5meShd-1" value="Катя, Паша и Федя обсуждают про сервис контекста И возможно возвращаются с Обджективом" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-381" y="-238" width="111" height="114" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Xo6QgFVJWg_wCG3A-Njh" name="LLM Adoption">
+    <mxGraphModel dx="1185" dy="918" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="osCE2AbC7kUAS_qVujsq-1" value="&lt;div align=&quot;left&quot;&gt;**** &lt;b&gt;LLM Adoption&lt;/b&gt;&lt;br&gt;- % трафика, обрабатываемого LLM-агентами&lt;br&gt;&amp;nbsp; - реалистично получить десятки процентов&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-95" y="-67" width="241" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="HHjBe6AQ8RwJ7vzUnNPX-2" target="HHjBe6AQ8RwJ7vzUnNPX-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m1h4zNA2cB7KUE-4J2bR-2" value="O: Мы понимаем одинаково" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-399" y="-158" width="111" height="30" as="geometry" />
+        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-2" value="&lt;div align=&quot;left&quot;&gt;O: Мы современные!&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-131" y="137" width="111" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="m1h4zNA2cB7KUE-4J2bR-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="m1h4zNA2cB7KUE-4J2bR-4" target="m1h4zNA2cB7KUE-4J2bR-5">
+        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-3" value="KR1: весь трафик обрабатывается LLM-агентами (жесткими/гибкими)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="47" y="121" width="165" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-4" value="&lt;ul&gt;&lt;li&gt;0 - не внедрили ни одного агента&lt;/li&gt;&lt;li&gt;0.7 - 50% трафика обрабатывается LLM-агентами&lt;/li&gt;&lt;li&gt;1 - 80% трафика обрабатывается LLM-агентами&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;Между - линейно" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="304" y="77" width="249" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.013;entryY=0.199;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="HHjBe6AQ8RwJ7vzUnNPX-3" target="HHjBe6AQ8RwJ7vzUnNPX-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m1h4zNA2cB7KUE-4J2bR-4" value="KR1: сократить количество запросов информации о клиенте из внешних систем" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-208" y="-161" width="166" height="51" as="geometry" />
+        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-7" value="Федя и Ден описывают, что такое LLM-агент" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="332" y="-53" width="136" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="m1h4zNA2cB7KUE-4J2bR-5" value="0 -&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="37" y="-213" width="296" height="140" as="geometry" />
+        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-8" value="KR2: внедряем LLM агенты" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="53" y="274" width="165" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="m1h4zNA2cB7KUE-4J2bR-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.012;entryY=0.411;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="m1h4zNA2cB7KUE-4J2bR-2" target="m1h4zNA2cB7KUE-4J2bR-4">
+        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.016;entryY=0.574;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="HHjBe6AQ8RwJ7vzUnNPX-2" target="HHjBe6AQ8RwJ7vzUnNPX-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m1h4zNA2cB7KUE-4J2bR-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="m1h4zNA2cB7KUE-4J2bR-8" target="m1h4zNA2cB7KUE-4J2bR-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="m1h4zNA2cB7KUE-4J2bR-8" value="KR2:&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-206" y="5.5" width="166" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="m1h4zNA2cB7KUE-4J2bR-9" value="0 -&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="34" y="-42" width="299" height="125" as="geometry" />
+        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-10" value="KR2: внедряем LLM агенты" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="329" y="270" width="165" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
