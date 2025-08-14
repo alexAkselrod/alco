@@ -161,7 +161,7 @@
         <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-3" value="KR1: весь трафик обрабатывается LLM-агентами (жесткими/гибкими)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="43" y="89" width="165" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-4" value="&lt;ul&gt;&lt;li&gt;0 - не внедрили ни одного агента&lt;/li&gt;&lt;li&gt;0.7 - 50% трафика обрабатывается LLM-агентами&lt;/li&gt;&lt;li&gt;1 - 80% трафика обрабатывается LLM-агентами&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;Между - линейно" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-4" value="&lt;ul&gt;&lt;li&gt;0 - не внедрили ни одного агента&lt;/li&gt;&lt;li&gt;0.7 - 50% трафика через бота обрабатывается LLM-агентами&lt;/li&gt;&lt;li&gt;1 - 80% трафика через бота обрабатывается LLM-агентами&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;Между - линейно" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="304" y="94" width="249" height="123" as="geometry" />
         </mxCell>
         <mxCell id="HHjBe6AQ8RwJ7vzUnNPX-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.013;entryY=0.199;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="HHjBe6AQ8RwJ7vzUnNPX-3" target="HHjBe6AQ8RwJ7vzUnNPX-4">
